@@ -1,8 +1,4 @@
 
-
-
-
-
 class Car
   def initialize
     @speed = 0
