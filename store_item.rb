@@ -33,14 +33,20 @@ class Ball
   end
 
   def print_info
-    puts "The #{@style} is #{@color} and costs $#{@price} "
+    puts "The #{@style} is #{@color} and costs $#{@price}"
   end
 
 end
 
 ball_1 = Ball.new(color: "black", price: 6, style: "8 ball")
-ball_1.print_info
+p ball_1.color
+
 ball_2 = Ball.new(color: "white", price: 12, style: "Cue ball" )
-ball_2.print_info
+p ball_2.price
+
 ball_3 = Ball.new(color: "yellow", price: 8, style: "Nine Ball")
-ball_3.print_info
+p ball_3.style
+
+p ball_1.print_info
+# p ball_2.print_info
+# p ball_3.print_info
