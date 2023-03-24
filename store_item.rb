@@ -47,6 +47,6 @@ p ball_2.price
 ball_3 = Ball.new(color: "yellow", price: 8, style: "Nine Ball")
 p ball_3.style
 
-p ball_1.print_info
-# p ball_2.print_info
-# p ball_3.print_info
+ball_1.print_info
+ball_2.print_info
+ball_3.print_info
